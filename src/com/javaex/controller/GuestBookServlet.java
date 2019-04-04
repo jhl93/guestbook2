@@ -28,7 +28,7 @@ public class GuestBookServlet extends HttpServlet {
 		if ("dform".equals(actionName)) {
 			System.out.println("dform요청");
 
-			WebUtil.forward(request, response, "WEB-INF/deleteForm.jsp");
+			WebUtil.forward(request, response, "/WEB-INF/deleteForm.jsp");
 		} else if ("add".equals(actionName)) {
 			System.out.println("add요청");
 
